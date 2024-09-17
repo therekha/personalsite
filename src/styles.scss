@@ -1,1 +1,20 @@
-/* You can add global styles to this file, and also import other style files */
+:root{
+  --rosepink: #f3beb9;
+  --inkblue: #222337;
+  --oldyellow: #F4D095;
+  --dustgreen: #727A67;
+
+
+  color: var(--rosepink);
+  background-color: var(--inkblue);
+  font-family: "Quicksand", sans-serif;
+}
+a:link, a:visited, a, p{
+  color: var(--rosepink)
+}
+a:hover, a:active{
+  color: var(--dustgreen)
+}
+
+html, body { height: 100%; }
+body { margin: 0;}
